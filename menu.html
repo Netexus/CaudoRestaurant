@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Restaurante</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="icon" href="./assets/favicon.png" type="image/x-icon">
+</head>
+
+<header>
+    <!-- NAVBAR SUPERIOR (desktop) -->
+  <nav class="top-nav">
+    <div class="logo">🍽 Restaurante</div>
+    <ul class="top-links">
+      <li><a href="./index.html">Inicio</a></li>
+      <li><a href="#">Menú</a></li>
+      <li><a href="./contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+    <!-- NAVBAR INFERIOR (mobile) -->
+  <nav class="bottom-nav">
+    <a href="./index.html" class="nav-item"> 
+      <i class="fas fa-home"></i><span>Inicio</span>
+    </a>
+    <a href="#" class="nav-item">
+      <i class="fas fa-utensils"></i><span>Menú</span>
+    </a>
+    <a href="./contacto.html" class="nav-item">
+      <i class="fas fa-phone-alt"></i><span>Contacto</span>
+    </a>
+  </nav>
+</header>
+
+<body>
+
+  <section class="plates-container">
+
+  <div class="plate-card" id="pizza">
+    <img src="./assets/pizza.png" alt="Pizza" class="plate-img">
+    <p class="plate-name">Pizza</p>
+    <details class="plate-detail">
+      <summary>Ver detalle</summary>
+      <p>Pizza artesanal con masa delgada, salsa de tomate natural, queso mozzarella y tus toppings favoritos.</p>
+    </details>
+  </div>
+
+  <div class="plate-card" id="burger">
+    <img src="./assets/burger.png" alt="Burger" class="plate-img">
+    <p class="plate-name">Burger</p>
+    <details class="plate-detail">
+      <summary>Ver detalle</summary>
+      <p>Jugosa hamburguesa de res, pan artesanal, vegetales frescos y salsas especiales.</p>
+    </details>
+  </div>
+
+  <div class="plate-card" id="sushi">
+    <img src="./assets/sushi.png" alt="Sushi" class="plate-img">
+    <p class="plate-name">Sushi</p>
+    <details class="plate-detail">
+      <summary>Ver detalle</summary>
+      <p>Rollos de sushi preparados con pescado fresco, arroz japonés y alga nori.</p>
+    </details>
+  </div>
+
+</section>
+
+
+</body>
+</html>
