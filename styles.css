@@ -125,7 +125,6 @@ a {
   .plate-img {
     height: 125px; /* Altura de la imagen */
     border-radius: 15%; /* Imagen redonda */
-    border: 3px solid #12c9d6; /* Borde naranja claro */
     object-fit: cover; /* Ajustar la imagen al contenedor */
     margin-bottom: 10px; /* Espaciado inferior */
   }
